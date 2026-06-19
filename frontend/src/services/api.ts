@@ -1,6 +1,6 @@
 import type { AnalyzeResponse, ReferencePreviewResponse, TransformOptions, TransformResponse } from "../types/api";
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8001";
+const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "http://soulmiker.fvds.ru:8001";
 
 async function jsonFetch<T>(url: string, init: RequestInit): Promise<T> {
   const res = await fetch(`${API_BASE}${url}`, {
