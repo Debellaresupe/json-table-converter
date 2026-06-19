@@ -1,0 +1,4 @@
+[
+  { "id": 1, "user": { "name": "Анна", "city": "Загреб" }, "tags": ["vip", "new"] },
+  { "id": 2, "user": { "name": "Иван" }, "amount": 15.5, "tags": null }
+]

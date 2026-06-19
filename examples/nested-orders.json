@@ -1,0 +1,7 @@
+{
+  "document": "INV-1",
+  "orders": [
+    { "id": 100, "customer": { "name": "ООО Ромашка" }, "items": [{ "sku": "A", "qty": 2 }, { "sku": "B", "qty": 1 }] },
+    { "id": 101, "customer": { "name": "Тест" }, "items": [{ "sku": "C", "qty": 4 }] }
+  ]
+}
